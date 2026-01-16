@@ -1,0 +1,1 @@
+This repository contains a collection of basic HTML and CSS projects I created while learning web development. These projects helped me practice fundamental concepts like layout, styling, forms, and interactivity.
