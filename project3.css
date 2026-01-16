@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.courses-container{
+    background-color:#fff5e7;
+        padding: 32px; 
+    font-family: "Euclid Circular A", sans-serif;
+
+}
+.box{
+    background-color:white;
+        border-radius: 8px;   
+        padding:32px 16px;
+        margin:16px;
+        display:inline-block; 
+        width:240px;
+
+    
+}
+.title{
+    font-size: 18px;
+    color: #25265e;
+    margin-bottom:12px;
+    text-align:left;
+    font-weight:bold;
+}
