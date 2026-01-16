@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height:2000px
+}
+
+.navbar {
+    background: #111;
+    height: 70px;
+    width:100%;
+    color: white;
+    position: sticky;
+    top: 0;
+    padding:20px;
+    
+
+}
+
+.navbar-item {
+    
+    
+    display: inline-block;
+  
+    margin: 4px 10px;
+
+}
+
+
+.navbar-item{
+    float:right;/*beause if we have supppose box1,2,3 then box 1 is flot:left:
+                   box2=float:right;
+                   box3=float:right;
+                   then final result will be box1-box3-box2 if kept together*/
+
+}
+
+.logo {
+    font-size: 20px;
+    float: left;
+}
+
+
+
+
+
+.offer {
+    position: relative;
+
+}
+
+.offer-badge {
+    position: absolute;
+    top: -20px;
+    border: 1px solid red;
+    border-radius: 75%;
+    background-color: red
+}
